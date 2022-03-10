@@ -1,0 +1,26 @@
+programme yams c'est 
+
+constante entier FIN := 27;
+constante entier MAX_TAB_DES := 6;
+constante entier ZERO:=-1;
+constante entier MAX := 5;
+
+feuille_marque : tableau[1..];
+
+
+début
+    tour, tour_joueur : entier;
+
+
+    pour tour de 1 à FIN faire{
+        pour tour_joueur de 1 à 4 faire{
+            afficheTableau(feuille_marque) // Voir si tab ou plein de valeur
+            si (tour_joueur<=3) alors{
+                lancerDes(sortF tableau[1 .. MAX]);
+                choix(variables de scores);
+            afficheTbaleau(feuille_marque);
+            }finSI
+        }finFaire
+    }finFaire
+    afficheGagnant(entF score1, score2)
+fin

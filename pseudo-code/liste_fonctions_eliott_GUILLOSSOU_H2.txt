@@ -1,0 +1,33 @@
+--> Procédures :
+prenom(sortF j1, sortF j2); 
+// Demande les prénoms des deux joueurs et affecte à j1 et j2
+// j1 et j2 seront un caractère ou une chaîne de caractère
+
+
+
+choix(entF de1, entF de2, entF d3, entF d4, entF d5, entF/sortF score1, entF/sortF score2);
+// valeur des dés après le lancer et selon la saisie de l'utilisateur 
+// verifier si sa saisie est correcte par rapport a la feuille de marque
+// et affecter si la demande de l'utilisateur est valide. Retourne un booléen
+
+afficheTableau(entF variables des scores);
+// vérif si la case qu'il demande est vide pour savoir si il a deja rempli la case 
+// avant de remplir
+
+--> Fonctions :
+
+lancer_des(sortF tableau[1..MAX_TAB]); 
+// Demande au joueur s'il veux lancer les dés
+// Génération des dés pour le jeu équivalent à un tableau 
+// dans notre programme
+// tableau sera un tableau d'entiers de 6 éléments 
+// remplis lorsque que le 1er tour se lance
+// retourne un tableau d'entiers compris entre 1 et 6
+
+afficheGagnant(entF score1, entF score2);
+// affiche le gagnant en fonction des scores entiers de la partie de Yamsen 
+retournant une chaine de caractère
+
+calculRes(entF variables des scores);
+// calcul et renvoie donc le total des points d'un joueur à la fin des 13 tours.
+
